@@ -1,8 +1,14 @@
 @keyframes changeShape{
-    from{
+    0%{
         border-radius: 0%;
     }
-    to{
+    25%{
+        border-radius: 12.5%;
+    }
+    50%{
+        border-radius: 25%;
+    }
+    100%{
         border-radius: 50%;
     }
 }
