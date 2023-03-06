@@ -1,0 +1,23 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+  animation:bounce 1s linear infinite alternate;
+  }
+  
+  @keyframes bounce{
+      0%{
+          top:100px
+      }
+      50%{
+          top:200px
+      }
+      100%{
+          top:100px
+      }
+      
+  }
+  
